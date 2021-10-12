@@ -8,6 +8,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         Projet 0 - Ma Petite Annonce
+        Baptiste Dantas
+        Thierno Baldé
+        Ulysse Perret
         </p>
         <a
           className="App-link"
