@@ -11,6 +11,7 @@ function App() {
         Baptiste Dantas
         Thierno Baldé
         Ulysse Perret
+        Nikola
         </p>
         <a
           className="App-link"
