@@ -1,0 +1,20 @@
+$puce: #15DEA5;
+$letter: #fff;
+
+li {
+  color: $puce;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  background-color: $puce;
+}
+
+a {
+  color: $letter;
+}
