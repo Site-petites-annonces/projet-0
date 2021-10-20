@@ -11,10 +11,10 @@ function App() {
   return (
     <div>
       <Header />
+      <Menu />
       <CreateAnnonce />
       <Footer />
       <Homepage />
-      <Menu />
       <OneAnnonce />
       <PopupContact />
     </div>
