@@ -7,11 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Projet 0 - Ma Petite Annonce
-        Baptiste Dantas
-        Thierno Baldé
-        Ulysse Perret
-        Nikola
+          Projet 0 - Ma Petite Annonce
+          Baptiste Dantas
+          Thierno Baldé
+          Ulysse Perret
+          Nikola
         </p>
         <a
           className="App-link"
