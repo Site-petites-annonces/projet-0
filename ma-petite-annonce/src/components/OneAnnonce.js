@@ -1,9 +1,9 @@
 import React from 'react';
 
-const oneAnnonce = () => {
+const OneAnnonce = () => {
   return (
     <div className="oneAnnonce">Une Annonce</div>
   );
 };
 
-export default oneAnnonce;
+export default OneAnnonce;

@@ -6,19 +6,22 @@ import Homepage from './pages/Homepage';
 import Menu from './components/Menu';
 import OneAnnonce from './components/OneAnnonce';
 import PopupContact from './components/PopupContact';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Menu />
-      <Footer />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/homemepage" component={Homepage} />
+        <Route path="/createAnnonce" component={CreateAnnonce} />
+        <Route path="/OneAnnonce" component={OneAnnonce} />
+        <Route path="/PopupContact" component={PopupContact} />
+        <Route path="/Menu" component={Menu} />
+        <Route path="/Header" component={Header} />
+        <Route path="/Footer" component={Footer} />
 
-      <Homepage />
-      <CreateAnnonce />
-      <OneAnnonce />
-      <PopupContact />
-    </div>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
