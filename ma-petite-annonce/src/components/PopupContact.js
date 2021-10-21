@@ -2,7 +2,7 @@ import React from 'react';
 
 const popupContact = () => {
   return (
-    <div className="popupContact">hello</div>
+    <div className="popupContact">Pop Contact</div>
   );
 };
 

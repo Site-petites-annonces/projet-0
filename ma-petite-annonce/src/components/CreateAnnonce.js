@@ -2,7 +2,7 @@ import React from 'react';
 
 const createAnnonce = () => {
   return (
-    <div className="createAnnonce">hello</div>
+    <div className="createAnnonce">CRÉER VOTRE ANNONCE</div>
   );
 };
 

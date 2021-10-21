@@ -12,11 +12,11 @@ function App() {
     <div>
       <Header />
       <Menu />
-      <CreateAnnonce />
-      <Footer />
       <Homepage />
+      <CreateAnnonce />
       <OneAnnonce />
       <PopupContact />
+      <Footer />
     </div>
   );
 }
