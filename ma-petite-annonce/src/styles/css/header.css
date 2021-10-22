@@ -1,0 +1,28 @@
+.header {
+    background-color: #F75454;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    color: #ffff;
+  }
+  
+  .btn {
+    cursor: pointer;
+    transform: scale(0.6);
+    border-radius: 20px;
+    background: #d63232;
+    color: #ffff;
+    padding: 1.85rem 3rem;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .btn:hover {
+    transform: scale(0.8);
+  }
+  
+  a {
+    text-decoration: none;
+  }

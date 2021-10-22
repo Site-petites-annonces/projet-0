@@ -1,0 +1,33 @@
+$primary-color: #F75454;
+$secondary-color: #ffff;
+$contrast-primary-color: #d63232;
+
+.header {
+  background-color: $primary-color;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: $secondary-color;
+
+}
+
+.btn {
+  cursor: pointer;
+  transform: scale(0.6);
+  border-radius: 20px;
+  background: $contrast-primary-color;
+  color: $secondary-color;
+  padding: 1.85rem 3rem;
+  margin-left: 50px;
+  font-size: 20px;
+  &:hover {
+    transform: scale(0.8);
+  }
+}
+
+a {
+  text-decoration: none;
+}
