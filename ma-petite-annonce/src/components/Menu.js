@@ -6,8 +6,8 @@ const Menu = () => {
       <h1> Menu</h1>
 
       <span> Derniere Annonces </span>
-      <span>  Vélos </span>
-      <span>Informatique </span>
+      <span> Vélos </span>
+      <span> Informatique </span>
       <span> Jeux </span>
       <span> Mes Annonces</span>
     </div>
