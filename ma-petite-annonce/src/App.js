@@ -4,16 +4,16 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 //style
 import './styles/sass/App.scss';
 //compoenent
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Menu from './components/Menu';
-import PopupContact from './components/PopupContact';
+//import Header from './components/Header';
+//import Footer from './components/Footer';
+//import Menu from './components/Menu';
+//import PopupContact from './components/PopupContact';
 //Pages
 import Homepage from './pages/Homepage';
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import OneAnnonce from './pages/OneAnnonce';
-import CreateAnnonce from './pages/CreateAnnonce';
+//import OneAnnonce from './pages/OneAnnonce';
+//import CreateAnnonce from './pages/CreateAnnonce';
 function App() {
   return (
     <BrowserRouter>

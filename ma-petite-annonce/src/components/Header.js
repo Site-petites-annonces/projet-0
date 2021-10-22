@@ -7,9 +7,9 @@ const Header = () => {
       <span id="logo">
         Logo: <image src="./img/logotest.svg"> </image>
       </span>
-      <span>
-
-      </span>
+      <section id="recherche">
+        <span> Rechercher une annonce</span>
+      </section>
     </div>
   );
 };
