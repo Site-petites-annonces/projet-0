@@ -1,12 +1,13 @@
 import './styles/sass/App.scss';
 
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+//compoenent
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 import PopupContact from './components/PopupContact';
-
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-
+//Pages
 import OneAnnonce from './pages/OneAnnonce';
 import Homepage from './pages/Homepage';
 import CreateAnnonce from './pages/CreateAnnonce';
