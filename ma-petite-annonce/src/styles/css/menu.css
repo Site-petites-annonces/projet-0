@@ -1,17 +1,19 @@
-li {
-  color: #15DEA5;
-  margin: auto;
-}
-
 ul {
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
-.menu {
-  background-color: #15DEA5;
+li {
+  margin: auto;
 }
 
-a {
-  color: #fff;
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: black;
+  border-bottom: 3px solid #F75454;
 }

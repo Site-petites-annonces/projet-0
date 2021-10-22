@@ -1,20 +1,21 @@
-$puce: #15DEA5;
-$letter: #fff;
-
-li {
-  color: $puce;
-  margin: auto;
-}
+$primary-color: #F75454;
 
 ul {
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
-.menu {
-  background-color: $puce;
+li {
+  margin: auto;
 }
 
-a {
-  color: $letter;
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: black;
+  border-bottom: 3px solid $primary-color;
 }
