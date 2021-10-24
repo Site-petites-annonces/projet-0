@@ -27,7 +27,6 @@ function App() {
       <Homepage />
       <OneAnnonce />
       <PopupContact />
-
     </div>
 
     /** 
