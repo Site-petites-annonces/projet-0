@@ -1,6 +1,6 @@
 //Base - Reacte
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+//import { BrowserRouter, Switch, Route } from "react-router-dom";
 //style
 import './styles/sass/App.scss';
 //component
@@ -12,8 +12,8 @@ import OneAnnonce from './components/OneAnnonce';
 import PopupContact from './components/PopupContact';
 //Pages
 import Homepage from './pages/Homepage';
-import About from "./pages/About";
-import NotFound from "./pages/NotFound";
+//import About from "./pages/About";
+//import NotFound from "./pages/NotFound";
 //import OneAnnonce from './pages/OneAnnonce';
 //import CreateAnnonce from './pages/CreateAnnonce';
 function App() {
