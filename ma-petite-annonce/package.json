@@ -44,5 +44,7 @@
   },
   "devDependencies": {
     "sass": "^1.43.2"
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
