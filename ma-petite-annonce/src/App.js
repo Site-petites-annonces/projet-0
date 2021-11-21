@@ -19,14 +19,16 @@ import Homepage from './pages/Homepage';
 function App() {
   return (
     /** */
-    <div>
+    <div clasName="App">
       <Header />
       <Menu />
+      <h1>Voici le site ma petite annonce: </h1>
       <CreateAnnonce />
 
       <Homepage />
       <OneAnnonce />
       <PopupContact />
+
       <Footer />
     </div>
 
