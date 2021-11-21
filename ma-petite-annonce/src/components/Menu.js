@@ -11,6 +11,7 @@ const Menu = () => {
           <li><a href="/OneAnnonce">Vélos</a></li>
           <li><a href="/OneAnnonce">Jeux</a></li>
           <li><a href="/OneAnnonce">Informatique</a></li>
+          <li><a href="./About">À propos</a></li>
         </ul>
       </nav>
     </div>
