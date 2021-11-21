@@ -7,11 +7,11 @@ const About = () => {
         <div>
 
             <Navigation />
-            <h1>A propos</h1>
+            <h1>À propos</h1>
             <br />
             <p>Site de petite annonces crée par Thierno Balde, Nikola Marinkovi, Baptis dantas et Ulysse Perret.
                 Le site porposse des annonces pour acheter ou vendres des produits entre particuliers.
-                Les propostion seront fixés
+                Les proposition seront fixés par les utilisateur.
             </p>
         </div>
     );
