@@ -3,6 +3,12 @@
 `npm start`
 `npm run sass`
 
+# Reprendre le projet
+npm i
+
+# Compiler le projet
+npm run build
+
 # Lancer l'API
 
 `node index.js` ou `npm start`
