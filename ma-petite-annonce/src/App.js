@@ -23,10 +23,11 @@ function App() {
       <Header />
       <Menu />
       <CreateAnnonce />
-      <Footer />
+
       <Homepage />
       <OneAnnonce />
       <PopupContact />
+      <Footer />
     </div>
 
     /** 

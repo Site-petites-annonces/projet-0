@@ -4,10 +4,12 @@
 `npm run sass`
 
 # Reprendre le projet
-npm i
+`npm i`
+
 
 # Compiler le projet
-npm run build
+`npm run build`
+`serve -s build`
 
 # Lancer l'API
 
