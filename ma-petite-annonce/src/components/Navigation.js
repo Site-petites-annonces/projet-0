@@ -1,11 +1,12 @@
 import React from 'react';
-//import { Navlink } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+//  <NavLink exact to="/"> Acceuil</NavLink>
 const Navigation = () => {
     return (
         <div className="navigation">
 
             Acceuil
+
 
 
             À propos
