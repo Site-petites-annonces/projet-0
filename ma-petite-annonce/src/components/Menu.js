@@ -4,6 +4,7 @@ import '../styles/sass/menu.scss';
 const Menu = () => {
   return (
     <div className="menu">
+      <h1>Menu</h1>
       <nav>
         <ul>
           <li><a href="/Homepage">Accueil</a></li>
