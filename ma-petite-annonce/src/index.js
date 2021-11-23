@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/css/index.css';
-import App from './App';
-//import reportWebVitals from './reportWebVitals.js';
 
-ReactDOM.render(
+import './styles/css/index.css';
+
+function App() {
+  return (
+    <div class="App">
+      <h1>Hello petite annonces</h1>
+    </div>
+  )
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement)
+
+
+/**
+ * ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
-);
-
-//For measure
-//reportWebVitals();
+  document.getElementById('root'));
+ */
